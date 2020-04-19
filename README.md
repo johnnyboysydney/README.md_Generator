@@ -53,8 +53,10 @@ questions that you will need to fill in and then you will be returned with a REA
 You just need to run node index.js from your terminal console in the file directory
 
 2. What if I get an error?  
-Ensure that you have install all the dependencies required for this to work
-See Dependencies section.
+Ensure that you have install all the dependencies required for this to work. See Dependencies section.
+
+3. Is this for automating the creation of the readme file?  
+Yes, that is correct. At least the layout and the data you have provided will be laid out for you
 
 ### License
 
