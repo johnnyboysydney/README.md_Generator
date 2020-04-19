@@ -49,10 +49,10 @@ questions that you will need to fill in and then you will be returned with a REA
 
 ### Questions
 
-1. How can I run the application?
+1. How can I run the application?  
 You just need to run node index.js from your terminal console in the file directory
 
-2. What if I get an error?
+2. What if I get an error?  
 Ensure that you have install all the dependencies required for this to work
 See Dependencies section.
 
