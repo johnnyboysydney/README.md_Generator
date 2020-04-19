@@ -11,7 +11,7 @@ README.md_Generator
 - [Usage](#usage)
 - [Built With](#built-with)
 - [Questions](#questions)
-- [LicenseApache License 2.0](#licenseapache-license-20)
+- [License](#license)
 - [Contributors](#contributors)
 - [Acknowledgments](#acknowledgments)
 - [Badges](#badges)
