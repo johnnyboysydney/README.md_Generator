@@ -50,15 +50,15 @@ questions that you will need to fill in and then you will be returned with a REA
 ### Questions
 
 1. How can I run the application?
-You just need to run node index.js from your terminal console in the file directory.
+You just need to run node index.js from your terminal console in the file directory
 
 2. What if I get an error?
-Ensure that you have install all the dependencies required for this to work. 
+Ensure that you have install all the dependencies required for this to work
 See Dependencies section.
 
 ### License
 
-Licenced under the Apache-2.0. 
+Licenced under the Apache-2.0
 
 ### Contributors
 
@@ -66,11 +66,7 @@ I am the sole contributor for this project.
 
 ### Acknowledgments
 
-My thanks to Aditya and Vishal, who assited me in finding important errors during the process. 
-
-#### Badges
-
-[![https://nodei.co/npm/aSD.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/aSD.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/aSD)
+My thanks to Aditya and Vishal, who assited me in finding important errors during the process
 
 ---
 
