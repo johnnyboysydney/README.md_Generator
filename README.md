@@ -1,36 +1,36 @@
-# README.md_Generator
-Using Node.js, create a template README.md file with users input to generate the README.
+        # README.md_Generator
+        Using Node.js, generate a template README.md file with users input to generate the README.
 
+        aSD
+        
+        ## Description    
+        ASD
+        
+        ## Table of Content
+        Project Title,Description,Installation,Usage,License,Contributing,Tests,Questions
+        
+        ### Installation
+        ASD
 
-[GitHub] (https://www.github.com "Github Home")  <!-- Links -->
-_Testing Italic_ <!-- italic -->
-**Titles**<!-- Bold -->
+        ### Usage
+        ASD
 
-|Name|Email|Address|                                <!-- Tables -->
-|------|-----|-------|
-|John|john.merchan@gmail.com|Sydney, Australia|
+        ### Built With
+        * [VScode](https://code.visualstudio.com/) - The editor of choice
+        * [Notepad++](https://notepad-plus-plus.org/) - My second editor
+        * [Gitbash](https://gitforwindows.org/) - What would we do without our bash?
 
->So he said so    <!-- Quotes -->
+        ### Questions
+        ASD
+        
+        ### LicenseApache License 2.0
 
-So you add the following ``<h1>Title</h1>` and this is code   <!-- Inserting code -->
+        ### Contributors
+        ASD
 
+        ### Acknowledgments
 
-<!-- Code block -->
-```Javascript 
-let express = require("express")
-let app = express();
-...
-```
-<!-- list -->
-
-1. Item 1
-    * Sub Item
-* unordered item
-
-<!-- Adding a line -->
----
-
-or 
-
-
-*** 
+        #### Badges
+        [![https://nodei.co/npm/aSD.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/aSD.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/aSD)
+        
+        Copyright 2020 &copy;
