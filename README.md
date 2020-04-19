@@ -14,7 +14,7 @@ README.md_Generator
 - [License](#license)
 - [Contributors](#contributors)
 - [Acknowledgments](#acknowledgments)
-- [Badges](#badges)
+- [Images](#images)
 - [CopyRight](#copyright)
 
 ## Description
@@ -69,6 +69,13 @@ I am the sole contributor for this project.
 ### Acknowledgments
 
 My thanks to Aditya and Vishal, who assited me in finding important errors during the process
+
+---
+
+### Images
+
+![cap1](https://user-images.githubusercontent.com/54227198/79687195-cfb30300-8288-11ea-8cac-b1046aab09c4.jpg)
+![cap2](https://user-images.githubusercontent.com/54227198/79687196-d0e43000-8288-11ea-9b7f-75a60bb143b0.jpg)
 
 ---
 
