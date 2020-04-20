@@ -1,16 +1,13 @@
 
-// Declaring the dependencies
-
+// Declaring the dependencies and variables
 const fs = require("fs");
 const util = require("util");
 const inquirer = require("inquirer");
 const generateReadme = require("./generateReadme")
 const apiCall = require("./api")
-
-
-
 const writeFileAsync = util.promisify(fs.writeFile);
 
+//Prompt the user for Github username and project details
 function promptUser(){
     return inquirer.prompt([
         {
@@ -91,7 +88,7 @@ function promptUser(){
     ]);
 } 
 
-
+// Function async Inititing 
   async function init() {
    
     try {
@@ -110,5 +107,4 @@ function promptUser(){
     }
   }
   
-  init();
-  
+  init();  
