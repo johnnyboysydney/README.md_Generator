@@ -4,7 +4,10 @@
 const fs = require("fs");
 const util = require("util");
 const inquirer = require("inquirer");
-const axios = require("axios");
+const generateReadme = require("./generateReadme")
+const apiCall = require("./api")
+
+
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
@@ -79,58 +82,26 @@ function promptUser(){
             type: "input",
             name: "questions",
             message: "What do I do if I have an issue?"
-        } 
+        },
+        {
+            type: "input",
+            name: "username",
+            message: "Please enter your GitHub username"
+        }
     ]);
 } 
 
-function generateReadme(answers) {
-    return `
-        # README.md_Generator
-        Using Node.js, generate a template README.md file with users input to generate the README.
-
-        ${answers.projectTitle}
-        
-        ## Description    
-        ${answers.description}
-        
-        ## Table of Content
-        ${answers.tableOfContents}
-        
-        ### Installation
-        ${answers.installation}
-
-        ### Usage
-        ${answers.usage}
-
-        ### Built With
-        * [VScode](https://code.visualstudio.com/) - The editor of choice
-        * [Notepad++](https://notepad-plus-plus.org/) - My second editor
-        * [Gitbash](https://gitforwindows.org/) - What would we do without our bash?
-
-        ### Questions
-        ${answers.questions}
-        
-        ### License${answers.license}
-
-        ### Contributors
-        ${answers.contributing}
-
-        ### Acknowledgments
-
-        #### Badges
-        [![https://nodei.co/npm/${answers.projectTitle}.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/${answers.projectTitle}.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/${answers.projectTitle})
-        
-        Copyright 2020 &copy;
-    `;
-  }
 
   async function init() {
    
     try {
       const answers = await promptUser();
-  
+      const results = await apiCall(answers.username);
+      answers.email = results.email;
+      answers.avatar_url = results.avatar_url;
       const generateContent = generateReadme(answers);
-  
+       
+      console.log(results);
       await writeFileAsync("README.md", generateContent);
   
       console.log("Successfully wrote to README.md");
