@@ -1,3 +1,4 @@
+// Generate the Readme function
 function generateReadme(answers) {
     return `
         # README.md_Generator
@@ -44,4 +45,5 @@ function generateReadme(answers) {
         Copyright 2020 &copy;
     `;
   }
+  
   module.exports = generateReadme;
