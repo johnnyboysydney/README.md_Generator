@@ -34,7 +34,7 @@ function generateReadme(answers) {
         ### Acknowledgments
 
         #### Badges
-        [![https://nodei.co/npm/${answers.projectTitle}.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/${answers.projectTitle}.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/${answers.projectTitle})
+        [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
         
         ### GitHub Username
         ${answers.email}
