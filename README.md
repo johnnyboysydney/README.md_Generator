@@ -59,7 +59,8 @@ Yes, that is correct. At least the layout and the data you have provided will be
 
 ### License
 
-Licenced under the Apache-2.0
+Licenced under the Apache-2.0  
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ### Contributors
 
