@@ -1,6 +1,4 @@
-# Project Title
-
-README.md_Generator
+# README.md_Generator
 
 ## Table of Content
 
