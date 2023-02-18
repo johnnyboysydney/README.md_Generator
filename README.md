@@ -66,7 +66,7 @@ I am the sole contributor for this project.
 
 ### Acknowledgments
 
-My thanks to Aditya and Vishal, who assited me in finding important errors during the process
+My thanks to Aditya and Vishal, who assisted me in finding important errors during the process
 
 ---
 
